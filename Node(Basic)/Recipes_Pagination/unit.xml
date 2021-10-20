@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.0550" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2021-10-20T13:55:48" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_recipes_pagination" timestamp="2021-10-20T13:55:48" tests="6" file="/home/aditya/Desktop/5791b550-5313-42a0-903a-4cfbd52b78fd/test/index.spec.js" time="4.0550" failures="2">
+    <testcase name="express_recipes_pagination Should return 200 for /recipes with default pagination" time="0.0310" classname="Should return 200 for /recipes with default pagination">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only page is set in query" time="0.0040" classname="Should respond with correct data when only page is set in query">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only limit is set in query" time="0.0030" classname="Should respond with correct data when only limit is set in query">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 1" time="2.0020" classname="Should respond with correct data when both limit and page are set in query - 1">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/home/aditya/Desktop/5791b550-5313-42a0-903a-4cfbd52b78fd/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/aditya/Desktop/5791b550-5313-42a0-903a-4cfbd52b78fd/test/index.spec.js)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 2" time="2.0020" classname="Should respond with correct data when both limit and page are set in query - 2">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/home/aditya/Desktop/5791b550-5313-42a0-903a-4cfbd52b78fd/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/aditya/Desktop/5791b550-5313-42a0-903a-4cfbd52b78fd/test/index.spec.js)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are out of bounds" time="0.0130" classname="Should respond with correct data when both limit and page are out of bounds">
+    </testcase>
+  </testsuite>
+</testsuites>
